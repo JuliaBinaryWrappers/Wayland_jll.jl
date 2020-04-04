@@ -1,81 +1,81 @@
 [[Wayland]]
-arch = "x86_64"
-git-tree-sha1 = "2446c249b362171487d3fed4bc47835c997d3820"
+arch = "armv7l"
+git-tree-sha1 = "5992744a5aac5b1de4cbf1b0103ca8669b101306"
 libc = "glibc"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "8818a711c6b5f919d752d1b32956155d428cc02f04920c7ded4e30e9f18185e8"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "a347350c92f626a0250a218c8e1ad2c6ab7302858c16a228cbc2967594c55d53"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.armv7l-linux-gnueabihf.tar.gz"
 [[Wayland]]
 arch = "i686"
-git-tree-sha1 = "0246dba498f2872b4274c59cf79937cd4f2526e5"
+git-tree-sha1 = "546447dc421e1edf8c05e534f272d70c1bf04f81"
 libc = "musl"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "a8b40ffd80bfdc1737f4ba39f966490d3ae7a8d6c71a6007d3f2e23f8c831d90"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.i686-linux-musl.tar.gz"
-[[Wayland]]
-arch = "x86_64"
-git-tree-sha1 = "21f96dd81b98f68002311ad2c55069f4f11fae4f"
-libc = "musl"
-os = "linux"
-
-    [[Wayland.download]]
-    sha256 = "e7fb02729c4fc7cbbb15c7b8d5f8d31336c311ff7f8801d4bc0dde665287ea6e"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.x86_64-linux-musl.tar.gz"
+    sha256 = "a58f293edfa6ef9adaf54f8d08fe6b0c0f3609cbe9f17033967da2f0759f1b93"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.i686-linux-musl.tar.gz"
 [[Wayland]]
 arch = "aarch64"
-git-tree-sha1 = "807af9b200816f141eaa208fcb29a28cb1cabc99"
-libc = "musl"
+git-tree-sha1 = "5962a8e4b980d0cdccf8060da9222c659b356b7f"
+libc = "glibc"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "23a631aeaac034041d0579e53cda63e02eb50b91d6b92f65afd97ff6e52a9ef9"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.aarch64-linux-musl.tar.gz"
+    sha256 = "432fbb20c3845381145fa08deef76eee06603f30ba5bc66c76e7e09c8c8cb699"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.aarch64-linux-gnu.tar.gz"
 [[Wayland]]
 arch = "armv7l"
-git-tree-sha1 = "5115838a0eba84184c910c1984150f6230a602ed"
+git-tree-sha1 = "49396e4bfe24d2b26fc7f36c687db1ce2706c006"
 libc = "musl"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "98eb85078c78e01a0361ee38ff2797db007388934b3ace76846709b01a82920a"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.arm-linux-musleabihf.tar.gz"
+    sha256 = "9f88f81fe9346c058ec767ce770c69ee1ac06ade4b06eac267060f013f47919d"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.armv7l-linux-musleabihf.tar.gz"
+[[Wayland]]
+arch = "aarch64"
+git-tree-sha1 = "b26d5398ad429a9bd1f2f3ae7d22e47e3f3b939c"
+libc = "musl"
+os = "linux"
+
+    [[Wayland.download]]
+    sha256 = "1d241721b6a66afc1d09d23bbb7ebb52ce95f6fd12866c0b23b4c760c094906e"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.aarch64-linux-musl.tar.gz"
 [[Wayland]]
 arch = "i686"
-git-tree-sha1 = "9c1c79cbefeffd7efc9f135e3b87a13acd32b8fc"
+git-tree-sha1 = "20ed0618f5a18af06c786ad74ba5f49b7e414d55"
 libc = "glibc"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "fb7c189bcb63773a92790adca3e3e86e9e757450dc276b5d64a0e723798883b7"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.i686-linux-gnu.tar.gz"
+    sha256 = "f177ac4f55ffc97c2777b3a5c23a36c8c146888dfa64ad53f410ed308276310c"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.i686-linux-gnu.tar.gz"
 [[Wayland]]
-arch = "armv7l"
-git-tree-sha1 = "f55dce1169b1c70b957f4b19800bf0c8f694658f"
-libc = "glibc"
+arch = "x86_64"
+git-tree-sha1 = "3e71c90411b3986a6143b03f68136a76900a6fac"
+libc = "musl"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "2e18c4fa7c70ec94d33bf29358a9e71b5b3bd4b2588858c9c3570fc81fe77b3b"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.arm-linux-gnueabihf.tar.gz"
+    sha256 = "dab4af0f7a81bde864e8a0bb31fe85bea882c02b4a5c974b3555545a4da6413b"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.x86_64-linux-musl.tar.gz"
 [[Wayland]]
-arch = "aarch64"
-git-tree-sha1 = "78a42292f0fed997fa8eccc0ab5392cb7a312b8e"
+arch = "x86_64"
+git-tree-sha1 = "bdb718a9741bfaaa176501a8b2e4f6446957994d"
 libc = "glibc"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "0ca34cebcf1ff764f61c06579366bcf42c5b993cba89922717c1723e8822e80d"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "312ee5f2d4cb0b82fce16c291a28a56ba73321b40ce0ccd629d4259e6269b256"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.x86_64-linux-gnu.tar.gz"
 [[Wayland]]
 arch = "powerpc64le"
-git-tree-sha1 = "56aff0f22a11694fb9389cb81537573c4256fc1e"
+git-tree-sha1 = "fcaf0ec8e3a72f4abd27250438ed3a52c892c346"
 libc = "glibc"
 os = "linux"
 
     [[Wayland.download]]
-    sha256 = "28ef4232b462f862390ff7a5cc874817f594753261c9d4b398bb167387e5be18"
-    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+0/Wayland.v1.17.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "2cdc80823500b82bed38926b05b5658f843574375567ff9264b2ff60f3cd5160"
+    url = "https://github.com/JuliaBinaryWrappers/Wayland_jll.jl/releases/download/Wayland-v1.17.0+1/Wayland.v1.17.0.powerpc64le-linux-gnu.tar.gz"

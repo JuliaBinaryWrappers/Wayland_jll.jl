@@ -1,6 +1,6 @@
 name = "Wayland_jll"
 uuid = "a2964d1f-97da-50d4-b82a-358c7fce9d89"
-version = "1.17.0+4"
+version = "1.19.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
@@ -12,5 +12,7 @@ Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 Libffi_jll = "e9f186c6-92d2-5b65-8a66-fee21dc1b490"
 
 [compat]
-JLLWrappers = "1.1.0"
-julia = "1.0"
+JLLWrappers = "1.2.0"
+julia = "1.6"
+Expat_jll = "~2.2.10"
+Libffi_jll = "~3.2.2"

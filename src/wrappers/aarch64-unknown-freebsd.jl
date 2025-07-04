@@ -3,7 +3,6 @@ export libwayland_client, libwayland_cursor, libwayland_egl, libwayland_server, 
 
 using Expat_jll
 using Libffi_jll
-using XML2_jll
 using EpollShim_jll
 JLLWrappers.@generate_wrapper_header("Wayland")
 JLLWrappers.@declare_library_product(libwayland_client, "libwayland-client.so.0")
@@ -12,7 +11,7 @@ JLLWrappers.@declare_library_product(libwayland_egl, "libwayland-egl.so.1")
 JLLWrappers.@declare_library_product(libwayland_server, "libwayland-server.so.0")
 JLLWrappers.@declare_executable_product(wayland_scanner)
 function __init__()
-    JLLWrappers.@generate_init_header(Expat_jll, Libffi_jll, XML2_jll, EpollShim_jll)
+    JLLWrappers.@generate_init_header(Expat_jll, Libffi_jll, EpollShim_jll)
     JLLWrappers.@init_library_product(
         libwayland_client,
         "lib/libwayland-client.so",
